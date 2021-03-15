@@ -230,7 +230,7 @@ population_size = 100
 crossover_probability = 0.8
 mutation_probability = 0.2
 elitism_rate = 0.1            # % dos indivíduos mais adaptados da população que serão mantidos para a próxima geração sem sofrer crossover e mutação
-generations = 100
+generations = 50
 parents = 4                   # Número de pais a serem selecionados
 
 
@@ -256,7 +256,8 @@ parent_selection_type = "rank"
 """
 crossover_type options
 
-Type of the crossover operation. Supported types are single_point (for single-point crossover),
+Type of the crossover operation. Supported types are 
+single_point (for single-point crossover),
 two_points (for two points crossover), 
 uniform (for uniform crossover), 
 and scattered (for scattered crossover).
